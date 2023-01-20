@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -22,6 +23,22 @@
 }
 .menu-text{
     margin: 1rem;
+    color:  #777C85;
+    /* font-family: 'Raleway' */
+    font-family: 'Kanit', sans-serif;
+}
+#team{
+    color: #4E5DC0;
+    text-decoration:wavy;
+    padding: 2px;
+    border-bottom: 1px solid #4E5DC0 ;
+    border-right-width: 1px ;
+    
+    
+}
+hr{
+    width: 40px;
+    border: 1px #4E5DC0;
 }
 .logo_img{
     margin-right: 11rem;
