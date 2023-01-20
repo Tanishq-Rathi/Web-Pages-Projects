@@ -16,6 +16,7 @@
     padding: 20px;
 }
 h1{
+    font-family: 'Kanit', sans-serif;;
     margin: 20px 0;
     text-align: center;
     margin-bottom: 20px;
@@ -64,6 +65,7 @@ h1{
     border-radius: 0 0 10px 10px;
     background: linear-gradient(0deg,rgba(0,0,0,0.5) 0%,rgba(255, 255, 255, 0) 100%);
     transition: 0.3s;
+    /* font-family: 'Kanit', sans-serif; */
 }
 .card:hover figcaption{
     opacity: 1;
