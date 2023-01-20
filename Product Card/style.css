@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 *{
     padding: 0px;
     margin: 0px;
@@ -33,7 +34,7 @@ img{
     border-radius: 1.5em;
   }
   .card-text{
-      /* text-align: left; */
+      text-align: left;
       margin: 1.5em 2em;
     }
 
@@ -53,9 +54,10 @@ img{
     .product_title{
         font-family: "Fraunces", serif;
         font-size: var(--head);
-        font-weight: 900;
+        font-weight: 700;
         line-height: 1;
         margin: 0.6em 0 0.7em 0;
+        width: 80%;
     }
     .desc{
         font-family: "Montserrat", sans-serif;
@@ -63,5 +65,36 @@ img{
         font-size: var(--text);
         color: var(--gray);
         font-weight: 500;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5em;   
+    }
+
+    .green_text{
+        margin-right: 0.3em;
+        color: var(--darkGreen);
+    }
+    .strike{
+        text-decoration: line-through;
+        align-self: center;
+    }
+    .btn{
+        background-color: var(--darkGreen);
+        margin: 2em 0 1em 0;
+        padding: 1em 0;
+        color: var(--white);
+        border: 0;
+        width: 100%;
+        border-radius: 0.7em;
+        outline: none;
+        cursor: pointer;
+    }
+    .btn_text{
+        color: var(--white);
+
+    }
+    .btn:hover{
+        background-color: hsl(156, 24%, 24%)
+    }
+    .btn img{
+        margin-right: 1em;
+        max-width: 100%;
     }
