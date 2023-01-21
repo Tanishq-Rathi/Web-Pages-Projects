@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -68,6 +68,10 @@ top: 53px;
     font-weight: 500;
 }
 .container{
+    /* height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #FFFFFF; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +107,19 @@ font-size: 1.3rem;
 line-height: 2rem;
 /* padding-right: 40px; */
 color: rgba(0, 0, 0, 0.509);
+}
+.image2{
+    /* width: 60%;
+    height: 100%; */
+     width: 29rem; 
+    height: 28rem; 
+    border-radius:30px ;
+    margin-right: 3rem;
+}
+.text-content2{
+    /* padding-left: 3rem; */
+    margin-left: 7rem;
+    height: 100%;
+    padding-right: 0rem;
+    padding-bottom:4rem ;   
 }
