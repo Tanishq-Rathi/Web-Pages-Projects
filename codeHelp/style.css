@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-.wrapper{
+
+.wrapper {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #FFFFFF;
 }
-.menue{
-    
-    display:flex;
+
+.menue {
+
+    display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
@@ -22,11 +25,12 @@
     margin-left: 2rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    
+
 }
-.menu-text{
+
+.menu-text {
     margin: 1rem;
-    color:  #777C85;
+    color: #777C85;
     /* font-family: 'Raleway' */
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
@@ -34,31 +38,35 @@
     font-weight: 500;
     cursor: pointer;
 }
-#team{
+
+#team {
     color: #4E5DC0;
-    text-decoration:wavy;
+    text-decoration: wavy;
     padding: 2px;
-    border-bottom: 1px solid #4E5DC0 ;
-    border-right-width: 1px ;
-    
-    
+    border-bottom: 1px solid #4E5DC0;
+    border-right-width: 1px;
+
+
 }
-hr{
+
+hr {
     width: 40px;
     border: 1px #4E5DC0;
 }
-.logo_img{
+
+.logo_img {
     margin-right: 11rem;
     margin-left: 4rem;
-width: 98px;
-height: 82px;
-left: 11px;
-top: 53px;
+    width: 98px;
+    height: 82px;
+    left: 11px;
+    top: 53px;
 }
-.btn{
+
+.btn {
     margin-left: 11rem;
     margin-right: 5rem;
-    background-color:  #4E5DC0;
+    background-color: #4E5DC0;
     color: white;
     padding: 15px;
     width: 11%;
@@ -67,7 +75,8 @@ top: 53px;
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
 }
-.container{
+
+.container {
     /* height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -78,48 +87,110 @@ top: 53px;
     margin: 7rem 5rem 4rem 7rem;
 
 }
-.image1{
+
+.image1 {
     width: 46%;
     height: 100%;
-    border-radius:30px ;
+    border-radius: 30px;
     margin-left: 3rem;
 }
-.heading{
-    margin-bottom:2.7rem;
+
+.heading {
+    margin-bottom: 2.7rem;
     font-family: 'Roboto Flex', sans-serif;
-    font-style:normal;
+    font-style: normal;
     font-weight: 900;
     font-size: 2.3rem;
     line-height: 45px;
     color: #16171C;
-    
+
 }
-.text-content{
+
+.text-content {
     padding-right: 50px;
     height: 100%;
-    padding-bottom:4.3rem ;
+    padding-bottom: 4.3rem;
 }
-.text{
+
+.text {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 1.3rem;
-line-height: 2rem;
-/* padding-right: 40px; */
-color: rgba(0, 0, 0, 0.509);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    /* padding-right: 40px; */
+    color: rgba(0, 0, 0, 0.509);
 }
-.image2{
+
+.image2 {
     /* width: 60%;
     height: 100%; */
-     width: 29rem; 
-    height: 28rem; 
-    border-radius:30px ;
+    width: 29rem;
+    height: 28rem;
+    border-radius: 30px;
     margin-right: 3rem;
 }
-.text-content2{
+
+.text-content2 {
     /* padding-left: 3rem; */
     margin-left: 7rem;
     height: 100%;
     padding-right: 0rem;
-    padding-bottom:4rem ;   
+    padding-bottom: 4rem;
+}
+
+.footer {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.foot_space {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.logo_img2 {
+    width: 98px;
+    height: 82px;
+    margin-bottom: 4rem;
+}
+
+.foot_head {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    color: #4E5DC0;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.foot_text {
+    color: rgba(153, 153, 153, 0.808);
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#mainHead {
+    text-decoration: underline;
+
+}
+
+.col4 img {
+    background-color: #4E5DC0;
+    border-radius: 30px;
+    border-width: 40px;
+    margin: 10px;
+}
+
+#email {
+    padding-top: 3rem;
 }
