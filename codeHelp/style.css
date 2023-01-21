@@ -8,6 +8,7 @@
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: #FFFFFF;
 }
 .menue{
     
@@ -57,4 +58,11 @@ top: 53px;
     width: 11%;
     border-radius: 5px;
     border: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 5rem 4rem 5rem;
+
 }
