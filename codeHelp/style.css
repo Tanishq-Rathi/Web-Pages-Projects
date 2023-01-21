@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -27,6 +29,9 @@
     color:  #777C85;
     /* font-family: 'Raleway' */
     font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
 }
 #team{
     color: #4E5DC0;
@@ -43,7 +48,7 @@ hr{
 }
 .logo_img{
     margin-right: 11rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
 width: 98px;
 height: 82px;
 left: 11px;
@@ -51,18 +56,49 @@ top: 53px;
 }
 .btn{
     margin-left: 11rem;
-    margin-right: 6rem;
+    margin-right: 5rem;
     background-color:  #4E5DC0;
     color: white;
     padding: 15px;
     width: 11%;
     border-radius: 5px;
     border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 7rem 5rem 4rem 5rem;
+    margin: 7rem 5rem 4rem 7rem;
 
+}
+.image1{
+    width: 46%;
+    height: 100%;
+    border-radius:30px ;
+    margin-left: 3rem;
+}
+.heading{
+    margin-bottom:3rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style:normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 45px;
+    color: #16171C;
+    font-stretch: 100px;
+}
+.text-content{
+    padding-right: 15px;
+    height: 100%;
+}
+.text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+/* padding-right: 40px; */
+color: rgba(0, 0, 0, 0.509);
 }
