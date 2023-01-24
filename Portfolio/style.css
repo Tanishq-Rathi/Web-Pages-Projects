@@ -17,6 +17,7 @@
 .container{
     width: 1200px;
     margin: 0 auto;
+    /* display: flex; */
 }
 .navbar{
     display: flex;
@@ -56,4 +57,208 @@ a{
 .nav-items div a:hover{
     transition:  0.2s;
     font-weight: 600;
+}
+
+
+
+/* Hero Section */
+
+
+.hero-section{
+    position: relative;
+    /* width: 85%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin:4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+.faded-text{
+    user-select: none;
+    font-size: 7em;
+    color: rgb(231,231,231);
+    bottom: -1%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.hero-section-heading{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+.role{
+    color: #4e45d5;
+    font-size: xxx-large;
+    font-weight: 800;
+}
+.hero-section-sub-heading{
+        font: 45px;
+        line-height: 45px;
+}
+.hero-section-description{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
+ .btn-pink{
+    position: relative;
+    width: fit-content;
+    background-color: #e84949;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 1px 1px 8px 0px #00003f;
+    z-index: 1;
+ }  
+ .btn-pink::before{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* color: black; */
+    bottom: 0;
+    right: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 1s;
+    z-index: -1;
+ }      
+ .btn-pink:hover::before{
+     /* color: #00003f; */
+    transform: scaleX(1);
+ }
+ .btn-pink:hover{
+    border: solid 3px var(--bgOrange);
+    color: black;
+ }
+ .hero-section-right{
+    position: relative;
+ }
+ .absolute{
+    position: absolute;
+ }
+ .user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+ }
+ .user-image img{
+    z-index: -9;
+ }
+ @keyframes scaleImage {
+    0%{
+        filter: grayscale(0);
+        transform: scale(1);
+        /* box-shadow: 3px 3px 10px black; */
+    }
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(1);
+        box-shadow: 3px 3px 10px black;
+    }
+    100%{
+        transform: scale(1);
+        filter: grayscale(0);
+    }
+
+ }
+ .icon-dots{
+    z-index: 9;
+    bottom: -1rem;
+    right: 0;
+    animation-name: dotsAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes dotsAnimation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+ }
+ .icon-cube{
+    z-index: 9;
+    top: -0.8em;
+    right: 1em;
+    animation-name: cubeRotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes cubeRotate {
+    0%{
+        transform: rotateY(0deg) translateY(0px);
+    }
+    50%{
+        transform: rotatey(180deg) translateY(-12px) ;
+    }
+    100%{
+        transform: rotatey(360deg) translateY(0px);
+    }
+ }
+ .icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: shakeEffect;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+ @keyframes shakeEffect {
+    0%{
+        
+    }
+    50%{
+        bottom: 10%;
+        left: 5%;
+    }
+    100%{
+        
+    }
+}
+.icon-zigzag{
+    z-index: 9;
+    top:1.5rem;
+    left: -0.3rem;
+    animation: zigAnimation 5s ease-in infinite;
+}
+@keyframes zigAnimation {
+    0%{
+        
+    }
+    50%{
+       top: 2%;
+        left: 5%;
+    }
+    100%{
+        
+    }
+}
+.icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation: shakePlus 5s ease-in infinite;
+}
+@keyframes identifier {
+    50%{
+        top: 3%;
+        left: 48%;
+    }
 }
