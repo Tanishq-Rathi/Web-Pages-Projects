@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -77,12 +78,13 @@ a{
 }
 .faded-text{
     user-select: none;
-    font-size: 7em;
+    font-size: 6em;
     color: rgb(231,231,231);
     bottom: -1%;
-    left: -5%;
+    left: 2%;
     font-weight: bold;
     transition: all 3s;
+    z-index: -50;
 }
 .hero-section-left{
     display: flex;
@@ -131,7 +133,7 @@ a{
     right: 0;
     transform: scaleX(0);
     transform-origin: left;
-    transition: all 1s;
+    transition: all 0.8s;
     z-index: -1;
  }      
  .btn-pink:hover::before{
@@ -141,7 +143,9 @@ a{
  .btn-pink:hover{
     border: solid 3px var(--bgOrange);
     color: black;
-    /* border: none; */
+    border: none;
+    cursor: pointer;
+    /* border: 1px solid #00003f; */
  }
  .hero-section-right{
     position: relative;
@@ -150,9 +154,11 @@ a{
     position: absolute;
  }
  .user-image{
+    /* position: relative; */
     padding: 2.5rem;
     filter: grayscale(1);
     transition: all 1s;
+    z-index: -10;
     animation: scaleImage 5s linear infinite;
  }
  .user-image img{
@@ -292,7 +298,6 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 40px #1f1f1f;
-     /* z-index: -11; */
 }
 
 .project-card::after{
@@ -329,6 +334,10 @@ a{
     font-weight: 600;
     color: rgb(255,255,255);
     z-index: 10;
+    display: none;
+}
+.project-card:hover .project-number{
+    display: block;
 }
 .project-number-right{
     right: -47px;
@@ -350,12 +359,15 @@ a{
     gap: 1em;
     transition: all 0.4s;
 }
+
 .project-content-left{
     left: 10%;
 }
+
 .project-content-right{
     right: 10%;
 }
+
 .project-skills-container{
     width: 60%;
     display: flex;
@@ -369,4 +381,41 @@ a{
     font-size: 50px;
     font-weight: bold;
     line-height: 3rem;
+}
+.project-subHeading{
+    width:70%;
+    font-size: 16px;
+    font-style: italic;
+    
+}
+.btn-grp{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+.icon{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.icon:hover{
+    color: var(--bgOrange);
+}
+.project-card:hover .project-content{
+    transform: scale(1.1);
+}
+#project1{
+    background-image: url(./projects/Project1.png);
+}
+#project2{
+    background-image: url(./projects/Project2.png);
+    margin-left: 120px;
+}
+#project3{
+    background-image: url(./projects/Project3.png);
+}
+#project4{
+    background-image: url(./projects/Project4.png);
+    margin-left: 120px;
 }
