@@ -432,7 +432,7 @@ a{
     flex-direction: column;
 }
 .skill-container-right{
-    width: 50%;
+    width: 52%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -444,7 +444,7 @@ a{
     font-style: bold;
     color: rgb(231,231,231);
     bottom: -34.5%;
-    right: -25%;
+    right: 0%;
     user-select: none;
     /* overflow-x: hidden; */
 }
@@ -467,4 +467,26 @@ a{
     width: 90px;
     z-index: 1;
     transition: all 0.5s;
+}
+
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+.skill-heading{
+    font-size: 50px;
+    /* font-style:700; */
+    font-weight: 500;
+    color: var(--bgOrange);
+    line-height: 50px;
+}
+.caps{
+    font-size: 90px;
+}
+.skill-subHeading{
+    margin-top: 1rem;
+    text-align: justify;
+    width: 85%;
+}
+.skill-subHeading p{
+    margin: 15px 0;
 }
