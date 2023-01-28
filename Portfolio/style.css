@@ -590,3 +590,75 @@ padding: 5rem;
     display: flex;
     gap: 1rem;
 }
+
+@media(max-width:1597px){
+    .container{
+        width: 1000px;
+    }
+}
+/* Media querry for nav bar */
+@media(max-width:1054px) {
+    .navbar{
+        width: 88%;
+    }
+    .logo-container{
+        margin-left: 70px;
+    }
+}
+/* Media querry for hero section */
+@media(max-width:1197px){
+    .hero-section{
+        width: 80%;
+    }
+    .faded-text{
+        font-size: 6em;
+        bottom: -4%;
+        left: -2%;
+    }
+}
+
+@media(max-width:1225px){
+    .project-container{
+        width: 90%;
+    }
+    #project2{
+        margin-left: 70px;
+    }
+    #project4{
+        margin-left: 70px;
+    }
+}
+@media(max-width:1015px){
+    .skills-container{
+        width: 80%;
+    }
+    .skills-logo{
+        width: 65px;
+    }
+    .skill-fade-text{
+        position: absolute;
+        font-size: 15em;
+        font-style: bold;
+        color: rgb(231,231,231);
+        bottom: -25.5%;
+        right: -14%;
+        user-select: none;
+        /* overflow-x: hidden; */
+    }
+}
+@media (max-width:1268px) {
+    .form-content{
+        width: 85%;
+    } 
+}
+
+@media(max-width:1297px){
+    .footer-wrapper{
+        width: 95%;
+    }
+}
+@media(max-width:1090px){
+    .footer-wrapper{
+        width: 80%;
+    }
+}
