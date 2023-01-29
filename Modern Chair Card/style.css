@@ -57,3 +57,47 @@ p {
 position: absolute;
 visibility: hidden;
 }
+
+.color-btn:checked + label,
+.color-btn:not(:checked)+label{
+    position: relative;
+    height: 40px;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    width: 40px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    color: #ffeba7;
+    margin-right: 10px;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
+    z-index: 10;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+    background-color:aqua;
+}
+
+.color-btn:checked+label{
+    border-color: #434343;
+    transform: scale(1.1);
+}
+label.first-color{
+    margin-left: 450px;
+    background-image: url("color1.jpg");
+}
+label.color-2{
+    background-image: url("color2.jpg");
+}
+label.color-3{
+    background-image: url("color3.jpg");
+}
+label.color-4{
+    background-image: url("color4.jpg");
+}
+label.color-5{
+    background-image: url("color5.jpg");
+}
+label.color-6{
+    background-image: url("color6.jpg");
+}
