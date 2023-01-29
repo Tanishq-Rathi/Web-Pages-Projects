@@ -52,4 +52,8 @@ p {
   width: 100%;
   display: block;
 }
- 
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+position: absolute;
+visibility: hidden;
+}
