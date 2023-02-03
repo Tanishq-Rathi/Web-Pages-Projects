@@ -1,10 +1,10 @@
 /* Media Querries for Mobile phone  */
-@media(max-width:400px){
+@media(max-width:426px){
     body{
         overflow-x: hidden;
     }
     .container{
-        width: 400px;
+        width: 425px;
         margin: 0 auto;
         /* display: flex; */
     }
@@ -16,6 +16,11 @@
     }
     .logo{
         width: 60px;
+    }
+    .nav-items{
+        display: flex;
+        gap: 2rem;
+        padding-left: 4rem;
     }
     .navbar{
         width: 10%;
@@ -197,7 +202,7 @@
     @keyframes blobAnimate {
         50%{
             top: 54%;
-            left: 80%;
+            left: 70%;
         }
     }
     .skills-logo{
