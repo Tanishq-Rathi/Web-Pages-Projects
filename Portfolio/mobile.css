@@ -126,6 +126,10 @@
         box-shadow: 1px 1px 8px 0px #00003f;
         z-index: 1;
      } 
+     #btn{
+        font-size: 18px;
+        padding: 0.7rem 2.3rem;
+     }
      .icon{
         cursor: pointer;
         color: white;
@@ -152,5 +156,112 @@
     .project-content-right{
         right: -10%;
     }
-
+    .skills-container{
+        position: relative;
+        display: flex;
+        /* width: 100%; */
+        flex-wrap: wrap;
+        padding-left: 0rem;
+        margin: 2rem;
+        gap: 30px;
+    }
+    .skill-container-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-container-right{
+        width: 100%;
+        display: flex;
+        margin-left: 13%;
+        /* flex-wrap: wrap; */
+        position: relative;
+        gap: 1rem;
+    }
+    .skill-heading{
+        font-size: 35px;
+        /* font-style:700; */
+        font-weight: 800;
+        color: var(--bgOrange);
+        line-height: 70px;
+    }
+    .skill-subHeading{
+        margin-top: 1rem;
+        /* text-align: justify; */
+        width: 100%;
+    }
+    .skill-subHeading p{
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    @keyframes blobAnimate {
+        50%{
+            top: 54%;
+            left: 80%;
+        }
+    }
+    .skills-logo{
+        width: 70px;
+    }
+    .skill-fade-text{
+        font-size: 8em;
+        bottom: -5.5%;
+        right: 8%;
+        /* overflow-x: hidden; */
+    }
+    .contactus-heading{
+        font-size: 3em;
+        padding-left: 12px;
+        padding-top: 2rem;
+        font-weight: 600;
+    }
+    .contactus-sub-heading{
+        font-size: 1.5rem;
+        padding-left: 12px;
+        font-weight: 500;
+    }
+    .contactus-form-container{
+        margin-top: 10px;
+    }
+ 
+    .form{
+        width: 100%;
+        margin: 2rem 2rem;
+    }
+    #submit-btn{
+        font-size: 1rem;
+        margin: 0.6rem 0;
+        padding: 15px;
+        border-radius: 5px;
+        transition: all 0.4s;
+    }
+    .submit-icon{
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+    .footer-faded-text{
+        left: 5px;
+        bottom: 4;
+        font-size: 1.5rem;
+    }
+    .link-wrapper{
+        gap: 1.2rem;
+    }
+    .link-wrapper div a{
+        font-size: 12px;
+    }
+ 
+    .icon-wrapper{
+        
+        gap: 1rem;
+    }
+    footer{
+        padding: 1rem;
+    }
+    .footer-wrapper{
+        display: flex;
+        gap: 1rem;
+      
+        width: 95%;
+    }
 }
