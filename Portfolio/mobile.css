@@ -177,9 +177,6 @@
     .skill-container-right{
         width: 90%;
         display: flex;
-        /* margin-left: 13%; */
-        /* flex-wrap: wrap; */
-        padding-bottom: 60px;
         position: relative;
         gap: 1rem;
     }
@@ -210,9 +207,9 @@
     }
     .skill-fade-text{
         font-size: 8em;
-        bottom: -13.5%;
-        right: 8%;
-        /* overflow-x: hidden; */
+        bottom: -20.5%;
+        right: -0%;
+        /* overflow-    x: hidden; */
     }
     .contactus-heading{
         font-size: 3em;
