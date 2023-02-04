@@ -37,7 +37,7 @@
     }
     .hero-section{
         position: relative;
-        /* width: 85%; */
+        width: 85%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -54,14 +54,15 @@
     .user-image{
         /* position: relative; */
         padding: 2rem;
+        animation: scaleImage 5s linear infinite;
          
      }
     .faded-text{
         user-select: none;
         font-size: 4em;
         color: rgb(231,231,231);
-        bottom: -7%;
-        left: -12%;
+        bottom: -9%;
+        left: -7%;
         font-weight: bold;
         transition: all 3s;
         z-index: -50;
@@ -159,7 +160,7 @@
     }
     
     .project-content-right{
-        right: -10%;
+        right: 5%;
     }
     .skills-container{
         margin-top: 3rem;
@@ -267,4 +268,5 @@
         gap: 1rem;
         width: 95%;
     }
+     
 }
