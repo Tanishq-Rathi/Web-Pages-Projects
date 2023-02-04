@@ -38,6 +38,7 @@
 .nav-items{
     display: flex;
     gap: 2rem;
+    padding-left: 0;
     padding: 0 4em;
 }
 .logo-text{
