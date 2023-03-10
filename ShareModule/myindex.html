@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="myindex.css">
+    <link rel="stylesheet" href="myindex.css" />
     <title>Share-Module-App</title>
   </head>
 
@@ -17,22 +17,65 @@
           <img src="profile-image.webp" alt="" />
         </div>
         <div class="user-name">
-            <h2>Tanishq Rathi</h2>
+          <h2>Tanishq Rathi</h2>
         </div>
         <div class="designation">
-            <h3>Founder, CodeHelp</h3>
+          <h3>Founder, CodeHelp</h3>
         </div>
         <div class="bottom-group">
           <button onclick="openModule()" class="btn-share btn-card">
             <i class="fa-solid fa-share"></i>
             <div>Share My Profile</div>
-        </button>
+          </button>
           <button class="btn-follow btn-card">Follow Me</button>
         </div>
       </div>
     </div>
-    <div class="overlay"></div>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- Model Component -->
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div>
+                <i onclick="" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+
+
+        <div>
+
+            <h3>Share this via</h3>
+
+            <div class="icon-container">
+                <a href="#" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon" id="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#" class="icon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#" class="icon" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="overlay-hidden"></div>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="myindex.js"></script>
   </body>
 </html>
